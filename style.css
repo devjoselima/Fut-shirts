@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #202124;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
+.carousel img{
+    width: 100%;
+    max-height: 500px;
+    min-height: 250px;
+}
+
+#destaques{
+    background-color: #ffeae6;
+}
+
+.card-header{
+    background-color: #202124;
+}
+
+.text-gray{
+    color: #747474;
+}
+
+del{
+    font-size: 14px;
+}
+
+span{
+    font-size: 24px;
+}
+
+.bi-check-lg{
+    color: #03E05F;
+}
+
+@media (max-width: 767px){
+    .nav-link{
+        margin-top: 10px;
+    }
+
+    .card{
+        max-width: 370px;
+        margin: 0 auto;
+    }
+}
