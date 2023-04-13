@@ -2,7 +2,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header,
+.card-header,
+footer{
     background-color: #202124;
 }
 
@@ -16,13 +18,15 @@ header{
     min-height: 250px;
 }
 
-#destaques{
+#destaques, #produtos{
     background-color: #ffeae6;
 }
 
-.card-header{
-    background-color: #202124;
+.card{
+    max-width: 250px;
+    margin: 0 auto;
 }
+
 
 .text-gray{
     color: #747474;
@@ -40,13 +44,17 @@ span{
     color: #03E05F;
 }
 
+.nav-produtos .nav-link.active{
+    background-color: #202124;
+}
+
+#carrinho{
+    padding-bottom: 150px;
+}
+
 @media (max-width: 767px){
     .nav-link{
         margin-top: 10px;
     }
 
-    .card{
-        max-width: 370px;
-        margin: 0 auto;
-    }
 }
