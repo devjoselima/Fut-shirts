@@ -6,8 +6,7 @@ $(document).ready(function () {
         const valorProduto = $(this).parent().find('span').text();
 
         $('#produto').val(nomeProduto)
-        const valorProdutoSemEspacos = valorProduto.trim()
-        $('#valor').val(valorProdutoSemEspacos)
+        $('#valor').val(valorProduto.trim())
         
 
 
